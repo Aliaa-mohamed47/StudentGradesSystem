@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net11.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models/Domain.fs" />
+    <Compile Include="Core/Auth.fs" />
+    <Compile Include="Core/StudentCrud.fs" />
+    <Compile Include="Core/StudentStorage.fs" />
+    <Compile Include="Core/StudentAnalytics.fs" />
+    <Compile Include="Core/ClassAnalytics.fs" />
+    <Compile Include="UI/ViewerForm.fs" />
+    <Compile Include="UI/AdminForm.fs" />
+    <Compile Include="UI/LoginForm.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+</Project>
